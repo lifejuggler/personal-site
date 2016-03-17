@@ -87,13 +87,6 @@
   -o-background-size: cover;
   background-size: cover;
 }
-.personal-box {
-  background: url("/assets/personal-main.png") no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 .link-box {
   height: 300px;
 }
@@ -101,4 +94,38 @@
   width: 100%;
   float: left;
   display: block;
+}
+.personal-box {
+  margin-top: 10%; 
+  text-align: center;
+  .future-work {
+    font-size: 2em;
+  }
+}
+.sect-title {
+  font-weight: bold;
+  font-size: 1.4em;
+}
+.overview {
+  min-height: 400px;
+  padding-bottom: 50px;
+}
+.desc-box {
+  position: absolute;
+  bottom: 2%; 
+  right: 2%;
+  background-color: black;
+  opacity: 0.9;
+  color: white;
+  text-align: right;
+  width: 96%;
+  .box-title {
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+  }
+  .box-desc {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
 }
