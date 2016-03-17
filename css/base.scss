@@ -1,0 +1,104 @@
+---
+# User modified css
+---
+
+/* Main Page */
+.container {
+  width: 100%;
+  .code {
+    background: #F64747;
+  }
+  .etc {
+    background: #19B5FE;
+  }
+  .blog {
+    background: #65C6BB;
+  }
+  .about {
+    background: #DADFE1;
+  }
+  .coding-link {
+    height: 300px;
+    background: url("/assets/coding-tom.svg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .misc-link {
+    height: 300px;
+    background: url("/assets/etc-tom.svg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .blog-link {
+    height: 300px;
+    background: url("/assets/blog-tom.svg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .about-link {
+    height: 300px;
+    background: url("/assets/aboutme-tom.svg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;    
+  }
+  .col-md-6 {
+    padding: 0px;
+  }
+}
+.nav-links {
+  li {
+    display: inline;
+    padding: 0 10px;
+    width: 100px;
+    a {
+      font-size: 1.2em;
+    }
+  }
+  list-style-type: none;
+  padding: 0 20px;
+}
+/* Portfolio */
+.evi-box {
+  background: url("/assets/evi-designs-main.png") no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.tasty-box {
+  background: url("/assets/tasty-tours-main.png") no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.ifamii-box {
+  background: url("/assets/ifamii-main.png") no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.personal-box {
+  background: url("/assets/personal-main.png") no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.link-box {
+  height: 300px;
+}
+.portfolio-box {
+  width: 100%;
+  float: left;
+  display: block;
+}
