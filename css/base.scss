@@ -22,19 +22,22 @@
   .coding-link {
     padding-top: 260px;
     padding-right: 10px;
-    color: white;
+    color: black;
   }
   .misc-link {
     padding-top: 260px;
     padding-left: 10px;
+    color: #C11F43;
   }
   .blog-link {
     padding-top: 8px;
     padding-right: 10px;
+    color: #C11F43;
   }
   .about-link {
     padding-top: 8px;
     padding-left: 10px;
+    color: black;
   }
   .code {
     background: #F64747;
@@ -46,7 +49,7 @@
     background: #65C6BB;
   }
   .about {
-    background: #DADFE1;
+    background: #F5D76E;
   }
   .coding-link {
     text-align: right;
@@ -169,4 +172,122 @@
 }
 #main-logo {
   width: 100px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+  .container {
+    h1 {
+      text-align: center;
+    }
+    .banner-link {
+      font-size: 1.5em;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    .coding-link {
+      padding-top: 260px;
+      padding-right: 10px;
+      color: black;
+    }
+    .misc-link {
+      padding-top: 260px;
+      padding-left: 10px;
+      color: #C11F43;
+    }
+    .blog-link {
+      padding-top: 8px;
+      padding-right: 10px;
+      color: #C11F43;
+    }
+    .about-link {
+      padding-top: 8px;
+      padding-left: 10px;
+      color: black;
+    }
+  }
+  .link-box {
+    margin-left: auto;
+    margin-right: auto;
+    height: 190px;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+  }
+}
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* STYLES GO HERE */
+}
+ 
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+  .container {
+    h1 {
+      text-align: center;
+    }
+  }
+}
+ 
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* STYLES GO HERE */
+}
+ 
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/* STYLES GO HERE */
+}
+ 
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/* STYLES GO HERE */
+}
+ 
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* STYLES GO HERE */
+}
+ 
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* STYLES GO HERE */
+}
+ 
+/* iPhone 5 (portrait & landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+/* STYLES GO HERE */
+}
+ 
+/* iPhone 5 (landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+/* STYLES GO HERE */
+}
+ 
+/* iPhone 5 (portrait)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+/* STYLES GO HERE */
 }
